@@ -6,7 +6,7 @@ int main (int argc, char** argv)
 {
   pcl::PointCloud<pcl::PointXYZ> cloud;
 
-  // Fill in the cloud data
+  // Fill in the cloud data.
   cloud.width    = 5;
   cloud.height   = 1;
   cloud.is_dense = false;
